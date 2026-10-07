@@ -1,0 +1,16 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- vertical "short" frame -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M40,26h28a8,8 0 0 1 8,8v40a8,8 0 0 1 -8,8H40a8,8 0 0 1 -8,-8V34a8,8 0 0 1 8,-8z M40,32a2,2 0 0 0 -2,2v40a2,2 0 0 0 2,2h28a2,2 0 0 0 2,-2V34a2,2 0 0 0 -2,-2z" />
+
+    <!-- play glyph -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M49,45 L65,54 L49,63 Z" />
+</vector>

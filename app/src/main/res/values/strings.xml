@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ShortsGen</string>
+    <string name="toolbar_subtitle">Text → 1080×1920 clips, 100% offline</string>
+
+    <string name="step1_title">1 · Add your script, line by line</string>
+    <string name="step1_subtitle">Every line you add becomes its own video.</string>
+    <string name="line_hint">Type a line…</string>
+    <string name="add_line">Add line</string>
+    <string name="clear_all">Clear all</string>
+    <string name="delete_line">Delete line</string>
+
+    <string name="step2_title">2 · Voice</string>
+    <string name="step2_subtitle">Piper en_US-ljspeech-medium, bundled inside the APK.</string>
+
+    <string name="step3_title">3 · Render</string>
+    <string name="generate">Generate videos</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="step4_title">4 · Your videos</string>
+    <string name="save_zip">Save ZIP to Downloads</string>
+    <string name="share_zip">Share ZIP</string>
+    <string name="play">Play</string>
+    <string name="save">Save</string>
+    <string name="share">Share</string>
+
+    <string name="offline_note">1080×1920 · H.264 (AVC) + AAC · black background · white text\nWorks with no internet permission at all.</string>
+
+    <string name="status_working">%1$s (%2$d/%3$d)</string>
+    <string name="status_failed">Failed: %1$s</string>
+    <string name="result_summary">%1$d clips · %2$.1f s of video · ZIP %3$.2f MB\n%4$s · rendered in %5$.1f s</string>
+
+    <string name="import_menu">Paste a whole script…</string>
+    <string name="about_menu">About</string>
+    <string name="import_title">Paste a script</string>
+    <string name="import_hint">One line per video…</string>
+    <string name="import_action">Add lines</string>
+
+    <string name="about_message">ShortsGen %1$s\n\nType your script line by line. Each line is spoken by the bundled Piper voice (en_US-ljspeech-medium) and rendered as its own 1080×1920 H.264 clip: black background, white text wrapped inside a 680×1320 box, and a duration that matches the speech.\n\nAll clips are packed into one ZIP that you can save to your Download folder.\n\nThe app has no internet permission - the voice model, phonemizer data, font and codecs are all on the device.</string>
+
+    <plurals name="lines_count">
+        <item quantity="one">%d line → 1 video</item>
+        <item quantity="other">%d lines → %d videos</item>
+    </plurals>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <external-files-path
+        name="videos"
+        path="videos/" />
+    <external-files-path
+        name="zips"
+        path="zips/" />
+    <external-files-path
+        name="ext_files"
+        path="." />
+    <files-path
+        name="internal_files"
+        path="." />
+    <cache-path
+        name="cache"
+        path="." />
+</paths>
